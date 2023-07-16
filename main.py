@@ -1,7 +1,7 @@
 import discord
 from revChatGPT.V1 import Chatbot
 
-TOKEN = 'MTEyNjg2NzIzMDc4NTgxMDQ2Mg.GQ3-OK.KzQ4SChHcENFNhop8r0fQcOG4JYPJpz2P6BIAM'
+TOKEN = input("Enter the access_token: ")
 self_tag = '<@1126867230785810462>'
 
 chatbot = Chatbot(config={
